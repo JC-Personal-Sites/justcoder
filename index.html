@@ -198,28 +198,60 @@
 			<section id="contact">
 				<div class="inner">
 					<section>
-						<form method="post" action="#">
+						<form
+							method="post"
+							action="https://formspree.io/f/xgepqaro"
+							id="my-form"
+						>
 							<div class="fields">
 								<div class="field half">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
+									<label class="form-control-label" for="nameContact"
+										>Name:</label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="nameContact"
+										name="nameContact"
+										placeholder="Your name.."
+									/>
 								</div>
 								<div class="field half">
-									<label for="email">Email</label>
-									<input type="text" name="email" id="email" />
+									<label class="form-control-label" for="emailContact"
+										>Email:</label
+									>
+									<input
+										type="email"
+										class="form-control"
+										id="emailContact"
+										name="emailContact"
+										placeholder="a@a.com"
+									/>
 								</div>
 								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="6"></textarea>
+									<label class="form-control-label" for="subjectContact"
+										>Message</label
+									>
+									<textarea
+										class="form-control"
+										id="subjectContact"
+										name="subjectContact"
+										placeholder="Message.."
+										rows="6"
+									></textarea>
 								</div>
 							</div>
 							<ul class="actions">
 								<li>
-									<input type="submit" value="Send Message" class="primary" />
+									<input type="submit" value="send" class="primary" />
+									<!-- <button type="submit" class="primary" value="send">
+										Send
+									</button> -->
 								</li>
 								<li><input type="reset" value="Clear" /></li>
 							</ul>
 						</form>
+						<div id="contactStatus"></div>
 					</section>
 					<section class="split">
 						<section>
@@ -302,5 +334,6 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/Justin.js"></script>
 	</body>
 </html>
