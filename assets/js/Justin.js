@@ -10,12 +10,12 @@ window.addEventListener('DOMContentLoaded', function () {
 
 	function success() {
 		form.reset();
-		status.classList.add('contactSuccess');
+		// status.classList.add('contactSuccess');
 		status.innerHTML = 'Message Successfully Sent.';
 	}
 
 	function error() {
-		status.classList.add('contactError');
+		// status.classList.add('contactError');
 		status.innerHTML = 'Oops! There was a problem.';
 	}
 
