@@ -1,0 +1,33 @@
+.container {
+	width: 100vw;
+	height: 70vh;
+	box-shadow: 0.75em 0 0.75em 0 rgba(0, 0, 0, 0.15);
+}
+
+.container2 {
+	background-color: #2a2f4a;
+	margin-top: 50px;
+	box-shadow: 0.75em 0 0.75em 0 rgba(0, 0, 0, 0.15);
+}
+
+#videoDescription {
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#videoTranscript {
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.textBold {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.textRed {
+	color: tomato;
+	font-size: 1.25rem;
+}
