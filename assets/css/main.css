@@ -23,6 +23,18 @@
 	padding-top: 50px;
 }
 
+@media screen and (min-width: 768px) {
+	#compText {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#compText h5,
+	p {
+		display: absolute;
+	}
+}
+
 html,
 body,
 div,
