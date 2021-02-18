@@ -27,23 +27,36 @@
 }
 
 .container2 {
+	display: flex;
+	margin: 50px 0px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.challengeCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* flex-basis: 18%; */
+	width: 300px;
 	background-color: #2a2f4a;
-	margin-top: 50px;
-	box-shadow: 0.75em 0 0.75em 0 rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+	margin: 15px;
+	min-height: 300px;
 }
 
-#bodyText {
-	width: 80%;
-	padding: 20px;
-	margin: 0 auto;
+.challengeCard:hover {
+	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.15);
+	transform: rotate(1deg);
 }
 
-.textBold {
-	font-weight: bold;
-	font-size: 1.5rem;
+.flexControl2 {
+	padding-top: 10px;
 }
 
-.textRed {
-	color: tomato;
-	font-size: 1.25rem;
+.flexControl2 ul {
+	display: flex;
+	justify-content: space-around;
 }
