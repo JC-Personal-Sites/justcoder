@@ -24,14 +24,18 @@
 }
 
 @media screen and (min-width: 768px) {
-	#compText {
+	.flexText {
 		display: flex;
 		justify-content: space-around;
 	}
 
-	#compText h5,
-	p {
+	.flexText h5,
+	p,
+	li {
 		display: absolute;
+	}
+	.jhFooter {
+		justify-content: space-between;
 	}
 }
 
