@@ -37,6 +37,10 @@
 	.jhFooter {
 		justify-content: space-between;
 	}
+
+	#landingIcons {
+		font-size: 2em;
+	}
 }
 
 html,
