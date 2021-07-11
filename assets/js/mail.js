@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded', function () {
 	function success() {
 		form.reset();
 		// status.classList.add('contactSuccess');
-		status.innerHTML = 'Message Successfully Sent.';
+		// status.innerHTML = 'Message Successfully Sent.'; // This needs putting back if I reinstate the contact form
+		status.innerHTML = 'Oops! There was a problem.'; // This needs Deleting if I reinstate the contact form
 	}
 
 	function error() {
