@@ -5,21 +5,21 @@
 	align-items: center;
 }
 
-#challengeImg {
+#coursesImg {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(
 			rgba(231, 183, 136, 0.85),
 			rgba(231, 183, 136, 0.85)
 		),
-		url('../../images/Challenge.jpg');
+		url('../../images/Courses.jpg');
 	background-position: center;
 	background-size: cover;
 	display: flex;
 	align-items: center;
 }
 
-#challengeImg h1 {
+#coursesImg h1 {
 	margin: 0px 50px;
 	font-size: 3.5rem;
 	width: 90vw;
@@ -33,13 +33,13 @@
 	flex-wrap: wrap;
 }
 
-.challengeCard {
+.coursesCard {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	/* flex-basis: 18%; */
 	width: 300px;
-	background-color: #2a2f4a;
+	background-color: darkslateblue;
 	border-radius: 15px;
 	padding: 20px;
 	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
@@ -47,17 +47,7 @@
 	min-height: 300px;
 }
 
-.flexControl1 p {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('../../images/ChallengeCard.jpg');
-	background-position: center;
-	background-size: cover;
-	padding: 10px;
-	border-radius: 15px;
-	min-height: 180px;
-}
-
-.challengeCard:hover {
+.coursesCard:hover {
 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.15);
 	transform: rotate(1deg);
 }
