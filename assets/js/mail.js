@@ -10,13 +10,13 @@ window.addEventListener('DOMContentLoaded', function () {
 
 	function success() {
 		form.reset();
-		// status.classList.add('contactSuccess');
-		// status.innerHTML = 'Message Successfully Sent.'; // This needs putting back if I reinstate the contact form
-		status.innerHTML = 'Oops! There was a problem.'; // This needs Deleting if I reinstate the contact form
+		status.classList.add('contactSuccess');
+		status.innerHTML = 'Message Successfully Sent.'; // This needs putting back if I reinstate the contact form
+		// status.innerHTML = 'Oops! There was a problem.'; // This needs Deleting if I reinstate the contact form
 	}
 
 	function error() {
-		// status.classList.add('contactError');
+		status.classList.add('contactError');
 		status.innerHTML = 'Oops! There was a problem.';
 	}
 
@@ -49,7 +49,7 @@ function ajax(method, url, data, success, error) {
 const addName = document.getElementById('name');
 const addItemButton = document.getElementById('mainRegisterButton');
 
-console.log(document.getElementById('name').value);
+// console.log(document.getElementById('name').value);
 
 addItemButton.addEventListener('submit', () => {
 	let ul = document.querySelector('#list.ul')[0]; //returns a collection which is like an array so selecting first itm with 0

@@ -4082,3 +4082,11 @@ body.is-menu-visible #menu .inner {
 	opacity: 1;
 	visibility: visible;
 }
+
+.contactSuccess {
+	color: green;
+}
+
+.contactError {
+	color: red;
+}
