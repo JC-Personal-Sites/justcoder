@@ -154,10 +154,6 @@
 	position: relative;
 }
 
-.iconPro .label {
-	display: none;
-}
-
 a.iconPro.alt:hover {
 	background-color: #6fc3df;
 }

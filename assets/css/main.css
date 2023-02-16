@@ -2260,10 +2260,6 @@ input[type='radio'] + label:before {
 	font-weight: 400;
 }
 
-.icon > .label {
-	display: none;
-}
-
 .icon:before {
 	line-height: inherit;
 }
