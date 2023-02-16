@@ -31,7 +31,7 @@
 	background-color: #242943;
 	margin: 50px auto;
 	padding: 0 100px;
-	max-width: 900px;
+	max-width: 800px;
 }
 
 #bodyText h1 {
@@ -110,7 +110,7 @@
 }
 
 .ProjectsTheme1Text h1, .ProjectsTheme2Text h1 {
-	font-size: 3rem;
+	font-size: 2.7rem;
 	margin-bottom: 10px;
 	border-bottom: 1px solid white;
 }
