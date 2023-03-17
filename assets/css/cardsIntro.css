@@ -27,7 +27,7 @@
 }
 
 .containerVideo {
-	width: 100vw;
+	width: 80vw;
 	height: 70vh;
 	margin-top: 50px;
 	box-shadow: 0.75em 0 0.75em 0 rgba(0, 0, 0, 0.15);
@@ -39,7 +39,7 @@
 	box-shadow: 0.75em 0 0.75em 0 rgba(0, 0, 0, 0.15);
 }
 
-#videoDescription {
+.videoDescription {
 	width: 80%;
 	padding: 20px;
 	margin: 0 auto;
